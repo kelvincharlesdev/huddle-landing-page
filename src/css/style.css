@@ -7,10 +7,7 @@ body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-}
-
-.header {
- padding: 25px 50px;
+  padding: 20px 120px;
 }
 
 .header img {
@@ -19,24 +16,30 @@ body {
 
 .container {
   display: flex;
-  padding: 0 50px;
+  margin-top: 50px;
   gap: 50px;
+}
+.container .imagem{
+  width: 80%;
+  height: auto;
 }
 
 .container img {
   width: 100%;
+  height: auto;
 }
 
 .container .info {
-  margin-bottom: 30px;
   margin-top: 40px;
-  padding-right: 50px;
   color: #ffffff;
+  width: 50%;
+  height: auto;
+  margin-bottom: 80px;
 }
 
 .container .info h1 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 15px;
 }

@@ -1,7 +1,16 @@
 @media (max-width: 1024px) {
+
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .container .imagem{
+    width: 100%;
+    height: auto;
   }
 
   .container .info {
@@ -10,7 +19,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0;
+    width: 100%;
+    height: auto;
+
   }
 
   .icons {
@@ -21,36 +32,18 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 590px) {
   body {
     background: url(../images/bg-mobile.svg) center center no-repeat
       var(--cor-primaria);
     background-size: cover;
+    padding: 20px;
+    
   }
 
   .container {
     display: flex;
     flex-direction: column;
-  }
-
-  .container .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-  }
-
-  .container .info h1 {
-    font-size: 23px;
-  }
-  .container .info p {
-    font-size: 15px;
-  }
-
-  .icons {
-    margin-top: 45px;
-    padding: 0;
+    
   }
 }
